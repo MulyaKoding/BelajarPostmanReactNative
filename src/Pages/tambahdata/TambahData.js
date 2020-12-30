@@ -54,44 +54,46 @@ const TambahData = ({navigation}) => {
     )
 }
 
-const styles = StyleSheet.create({
-    btnSimpan:{
-        backgroundColor: 'lightblue',
-        marginTop: 10,
-        padding: 10,
-        alignItems: 'center'
-      },
-      textBtn : {
-        fontSize :20,
-        color : 'white'
-      },
-      delete : {
-          fontSize: 20,
-          fontWeight : 'bold',
-          color : 'red',
-          marginRight:10
-      },
-      itemContainer : {
-          flexDirection:'row',
-          marginBottom:20
-      },
-      desc : {
-          marginLeft:18,
-          flex:1
-      },
-      preview: {
-        flex: 1,
-        justifyContent: 'flex-end',
-        alignItems: 'center',
-      },
-      capture: {
-        flex: 0,
-        backgroundColor: '#fff',
-        borderRadius: 5,
-        padding: 15,
-        paddingHorizontal: 20,
-        alignSelf: 'center',
-        margin: 20,
-      },
-})
 export default TambahData;
+
+
+const styles = StyleSheet.create({
+  btnSimpan:{
+      backgroundColor: 'lightblue',
+      marginTop: 10,
+      padding: 10,
+      alignItems: 'center'
+    },
+    textBtn : {
+      fontSize :20,
+      color : 'white'
+    },
+    delete : {
+        fontSize: 20,
+        fontWeight : 'bold',
+        color : 'red',
+        marginRight:10
+    },
+    itemContainer : {
+        flexDirection:'row',
+        marginBottom:20
+    },
+    desc : {
+        marginLeft:18,
+        flex:1
+    },
+    preview: {
+      flex: 1,
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+    },
+    capture: {
+      flex: 0,
+      backgroundColor: '#fff',
+      borderRadius: 5,
+      padding: 15,
+      paddingHorizontal: 20,
+      alignSelf: 'center',
+      margin: 20,
+    },
+})
